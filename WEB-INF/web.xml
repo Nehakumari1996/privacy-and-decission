@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!--Admin mappigs  -->
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.rajat.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>AdminProfile</servlet-name>
+		<servlet-class>com.rajat.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminProfile</servlet-name>
+		<url-pattern>/AdminProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		
+	
+	
+	<servlet>
+		<servlet-name>Addkeyworddetails</servlet-name>
+		<servlet-class>com.rajat.admin.Addkeyworddetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Addkeyworddetails</servlet-name>
+		<url-pattern>/Addkeyworddetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>EditProfile1</servlet-name>
+		<servlet-class>com.rajat.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile1</servlet-name>
+		<url-pattern>/EditProfile1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass1</servlet-name>
+		<servlet-class>com.rajat.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass1</servlet-name>
+		<url-pattern>/ChangePass1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Status</servlet-name>
+		<servlet-class>com.rajat.admin.Status</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Status</servlet-name>
+		<url-pattern>/Status</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteUser</servlet-name>
+		<servlet-class>com.rajat.admin.DeleteUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteUser</servlet-name>
+		<url-pattern>/DeleteUser</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Details</servlet-name>
+		<servlet-class>com.rajat.admin.Details</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Details</servlet-name>
+		<url-pattern>/Details</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<!-- User mapiing -->
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.user.Login</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Tellaboutyourself</servlet-name>
+		<servlet-class>com.user.Tellaboutyourself</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Tellaboutyourself</servlet-name>
+		<url-pattern>/Tellaboutyourself</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.user.Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Profile</servlet-name>
+		<servlet-class>com.user.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile</servlet-name>
+		<url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Add</servlet-name>
+		<servlet-class>com.user.Add</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Add</servlet-name>
+		<url-pattern>/Add</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.user.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Update_post</servlet-name>
+		<servlet-class>com.user.Update_post</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update_post</servlet-name>
+		<url-pattern>/Update_post</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.user.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.user.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ReadFile</servlet-name>
+		<servlet-class>com.Image.ReadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadFile</servlet-name>
+		<url-pattern>/ReadFile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ReadFile1</servlet-name>
+		<servlet-class>com.Image.ReadFile1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadFile1</servlet-name>
+		<url-pattern>/ReadFile1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CommentSubmit1</servlet-name>
+		<servlet-class>com.Image.CommentSubmit1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CommentSubmit1</servlet-name>
+		<url-pattern>/CommentSubmit1</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+
+		<servlet-name>GroupDetails</servlet-name>
+		<servlet-class>com.user.GroupDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroupDetails</servlet-name>
+		<url-pattern>/GroupDetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetChatList</servlet-name>
+		<servlet-class>com.user.GetChatList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetChatList</servlet-name>
+		<url-pattern>/GetChatList</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>SendRequest</servlet-name>
+		<servlet-class>com.user.SendRequest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendRequest</servlet-name>
+		<url-pattern>/SendRequest</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>CreateGroup</servlet-name>
+		<servlet-class>com.user.CreateGroup</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateGroup</servlet-name>
+		<url-pattern>/CreateGroup</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>FrequentsetCalculation</servlet-name>
+		<servlet-class>com.user.FrequentsetCalculation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FrequentsetCalculation</servlet-name>
+		<url-pattern>/FrequentsetCalculation</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>FriendRecommandation</servlet-name>
+		<servlet-class>com.user.FriendRecommandation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FriendRecommandation</servlet-name>
+		<url-pattern>/FriendRecommandation</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>FriendRecommandationMutualFriends</servlet-name>
+		<servlet-class>com.user.FriendRecommandationMutualFriends</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FriendRecommandationMutualFriends</servlet-name>
+		<url-pattern>/FriendRecommandationMutualFriends</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FileUpload</servlet-name>
+		<servlet-class>com.data.FileUpload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileUpload</servlet-name>
+		<url-pattern>/FileUpload</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Test</servlet-name>
+		<servlet-class>com.data.Test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/Test</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+<!-- 	//priya code//
+	 -->
+	
+	<servlet>
+		<servlet-name>addocruseraction</servlet-name>
+		<servlet-class>com.rajat.admin.addocruseraction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addocruseraction</servlet-name>
+		<url-pattern>/addocruseraction</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+		
+	<servlet>
+		<servlet-name>adduseraction</servlet-name>
+		<servlet-class>com.rajat.admin.adduseraction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adduseraction</servlet-name>
+		<url-pattern>/adduseraction</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+			
+	<servlet>
+		<servlet-name>userloginaction</servlet-name>
+		<servlet-class>com.user.userloginaction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userloginaction</servlet-name>
+		<url-pattern>/userloginaction</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>download</servlet-name>
+		<servlet-class>com.user.download</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>download</servlet-name>
+		<url-pattern>/download</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>MergeImage</servlet-name>
+		<servlet-class>com.user.MergeImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MergeImage</servlet-name>
+		<url-pattern>/MergeImage</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>OCR</servlet-name>
+		<servlet-class>com.user.OCR</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OCR</servlet-name>
+		<url-pattern>/OCR</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>User_Password</servlet-name>
+		<servlet-class>com.user.User_Password</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>User_Password</servlet-name>
+		<url-pattern>/User_Password</url-pattern>
+	</servlet-mapping>
+	<!-- 
+	end -->
+	
+
+
+</web-app>
